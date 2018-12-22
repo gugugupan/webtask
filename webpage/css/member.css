@@ -1,6 +1,41 @@
 @charset "utf-8";
 /* CSS Document */
 
+.member-block {
+	width: 124px;
+    float: left;
+    text-align: center;
+    line-height: 1.2;
+    margin: 0 2px 16px;
+}
+
+.member-block a {
+	text-decoration: none;
+}
+
+.member-block a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.member-block img {
+	display: block;
+    margin-bottom: 5px;
+    height: 150px;
+}
+
+.member-block .main {
+	margin: 0;
+	color: #e2437a;
+	font-size: 12px;
+}
+
+.member-block .sub {
+	margin: 0;
+	color: #aaa;
+	font-size: 12px;
+}
+
 #container{ }		
 	/*action content*/
 	#action_area{ float: right;
@@ -19,6 +54,7 @@
 		width:687px;}
 		
 	.h2_style{
+		margin-top: 10px;
 		padding-left:1px;
 	}
 	
