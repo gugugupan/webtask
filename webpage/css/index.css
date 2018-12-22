@@ -1,9 +1,34 @@
 ﻿@charset "utf-8";
 /* CSS Document */
 
+.big-item {
+	width: 600px;
+	margin: 10px auto 30px;
+	overflow: hidden;
+	border-radius: 8px;
+	position: relative;
+}
+
+.big-item img {
+	width: 100%;
+}
+
+.big-item .black-hover {
+	width: 100%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	padding: 36px 0;
+	font-size: 36px;
+	color: white;
+	text-align: center;
+	font-weight: 800;
+}
+
 #container{ }		
 	/*main content*/
-	#content{ float:right; width:550px; margin-right:20px;}
+	#content{}
 		#magic{ margin-left:5px; width:480px; border:1px solid #999; height:202px;}
 		
 		#a_b_02{ margin:10px 0 10px 0px;}
@@ -15,7 +40,7 @@
 		
 	/*side content*/
 	#sidebar{ float:right; width:196px;}
-		#notice{ height:100px; overflow:hidden; background:url(../Images/notice.gif) no-repeat; padding:20px 6px 0 14px; line-height:22px;}
+		#notice{ height:100px; overflow:hidden; background:url(../images/notice.gif) no-repeat; padding:20px 6px 0 14px; line-height:22px;}
 		
 		#order_find{ margin-top:10px;}
 		#order_find label{ font:600 12px/20px Arial; color:#0F81B5;}
@@ -26,8 +51,8 @@
 		.service{ margin-top:10px; background:#E2F1F9; text-align:center; padding:3px 6px 5px;}
 		.service p{ margin:5px 0;}
 		
-		.sidedt{ margin-top:14px; height:294px; background:url(../Images/sideArea.gif) no-repeat 0 29px; overflow:hidden;}
-		.sidedt h1{ height:29px; font:600 14px/28px Arial; color:#fff; text-align:center; background:url(../Images/sideTitle.gif) no-repeat;}
+		.sidedt{ margin-top:14px; height:294px; background:url(../images/sideArea.gif) no-repeat 0 29px; overflow:hidden;}
+		.sidedt h1{ height:29px; font:600 14px/28px Arial; color:#fff; text-align:center; background:url(../images/sideTitle.gif) no-repeat;}
 		.sidedt ul{ margin:10px 0 0 15px;}
 		.laster h1{ background-position:0 -29px;}
 		
