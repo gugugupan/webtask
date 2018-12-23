@@ -44,10 +44,10 @@ a:hover{ color:#f00;}
 
 #top, #header, #container, #footer, #child_site{ clear:both; margin:0 auto; width:900px;}
 
-#top{ width:970px; height:27px; background:url(../Images/topbg.gif) repeat-x; border:1px solid #97A2AA;}
+#top{ width:970px; height:27px; background:url(../images/topbg.gif) repeat-x; border:1px solid #97A2AA;}
 	.status{ float:left; width:600px; padding:2px 0 0 16px;}
 	.member{ float:right; width:215px; margin-top:2px; *margin-top:3px;}
-	.member li{ float:left; height:20px; padding:0 10px; background:url(../Images/topbg.gif) no-repeat 0 -27px;}
+	.member li{ float:left; height:20px; padding:0 10px; background:url(../images/topbg.gif) no-repeat 0 -27px;}
 
 #header{
 	background: #fff;
@@ -68,7 +68,7 @@ a:hover{ color:#f00;}
 		}
 		#mainnav li{ float:left; font:14px/22px Tahoma; text-align:center; padding: 0px 40px 0px 36px; border-left:1px solid #DDE4E9;  border-bottom:1px solid #ADB9C2;}
 		#mainnav li a{ text-decoration:none;}
-		#mainnav li.current{ background:url(../Images/navMenu.gif) no-repeat center 0;}
+		#mainnav li.current{ background:url(../images/navMenu.gif) no-repeat center 0;}
 		
 #container{
 	margin: 15px auto;
@@ -85,14 +85,14 @@ a:hover{ color:#f00;}
 		
 		#search{ margin:0;}
 		.search_key{ width:138px; height:18px; line-height:18px; border:1px solid #ddd; border-top-color:#7c7c7c;}
-		.search_sub{ width:39px; height:20px; border:0; background:url(../Images/search-sub.gif) no-repeat; display:inline;}
+		.search_sub{ width:39px; height:20px; border:0; background:url(../images/search-sub.gif) no-repeat; display:inline;}
 	
-		#alltype{ margin:10px 0 0; background:url(../Images/subnav_t.gif) no-repeat;}
+		#alltype{ margin:10px 0 0; background:url(../images/subnav_t.gif) no-repeat;}
 			.all_type{ font:600 14px/26px Arial; padding:22px 0 0 37px}
-			#subnav{ background:url(../Images/subnav_m.gif) repeat-y;}
-				#subnav ul{ background:url(../Images/subnav_b.gif) no-repeat 0 bottom; padding-bottom:10px;}
-				#subnav li{ margin-left:40px; background:url(../Images/arrow.gif) no-repeat 0 8px; padding-left:20px; font:14px/26px Tahoma;}
-		    #subnavbottom{ background:url(../Images/subnav_b.gif) no-repeat 0 bottom; padding-bottom:20px;}
+			#subnav{ background:url(../images/subnav_m.gif) repeat-y;}
+				#subnav ul{ background:url(../images/subnav_b.gif) no-repeat 0 bottom; padding-bottom:10px;}
+				#subnav li{ margin-left:40px; background:url(../images/arrow.gif) no-repeat 0 8px; padding-left:20px; font:14px/26px Tahoma;}
+		    #subnavbottom{ background:url(../images/subnav_b.gif) no-repeat 0 bottom; padding-bottom:20px;}
 		    
 #part-header {
 	width: 100%;
