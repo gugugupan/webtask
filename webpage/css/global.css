@@ -111,4 +111,13 @@ a:hover{ color:#f00;}
 	color: blue;
 	float: left;
 }
+
+#sitemapul {
+	padding-left: 10px;
+	color: black;
+}
+
+#sitemapul ul {
+	padding-left: 30px;
+}
 /* end styles for validation helpers */
