@@ -105,4 +105,10 @@ a:hover{ color:#f00;}
     color: #812990;
 
 }
+
+#backtoindex {
+	margin: 10px;
+	color: blue;
+	float: left;
+}
 /* end styles for validation helpers */
